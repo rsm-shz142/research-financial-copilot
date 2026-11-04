@@ -1,0 +1,6 @@
+transaction_id,grant_id,date,category,amount,budget_limit
+TX001,GRANT-A,2026-10-01,Equipment,2500,5000
+TX002,GRANT-A,2026-10-03,Travel,1200,1000
+TX003,GRANT-B,2026-10-05,Supplies,350,1000
+TX003,GRANT-B,2026-10-05,Supplies,350,1000
+TX005,GRANT-B,2026-10-08,Travel,abc,1000
