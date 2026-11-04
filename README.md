@@ -111,16 +111,6 @@ These safeguards reduce avoidable workflow errors; they do not guarantee regulat
 
 **Optional Voice Features:** The underlying Agent Service Toolkit includes optional speech-to-text (STT) and text-to-speech (TTS) components that are not configured in this prototype. Voice-related initialization warnings may appear in the terminal, but they do not affect the Financial Copilot's text-based workflows, financial analysis, or report generation.
 
-## Attribution and licensing
+## License
 
-This project is built on the open-source [Agent Service Toolkit](https://github.com/JoshuaC215/agent-service-toolkit). Its existing repository license is MIT; the original `LICENSE` file is preserved.
-
-The financial screening design was informed by ideas in [Finomaly](https://github.com/Barisaksel/finomaly), and the source-grounded policy retrieval and evidence-validation design was informed by [GovGrant AI](https://github.com/DimasDuran/GovGrant-AI). This prototype does not integrate either project in full and does not claim to reproduce their complete architectures. The Research Financial Copilot's synthetic financial tools, grant-monitoring logic, local policy corpus, report workflow, and Streamlit integration are implemented here for this proof of concept.
-
-Before redistribution beyond a private repository, review the upstream licenses and attribution requirements for each referenced project and confirm that any adapted code or assets are covered. This README does not replace that review.
-
-## Repository sharing notes
-
-Before sharing privately on GitHub, confirm that local-only material is excluded. In particular, do not upload `.env` files, credentials, `privatecredentials` contents, `.venv`, Python caches, checkpoint databases, local model files, logs, temporary artifacts, or personal information. The current ignore rules cover several of these categories, but GitHub's pending changes and tracked-file list should still be reviewed manually before the first commit.
-
-Do not commit or publish secrets merely because the repository is private. Private access reduces exposure but does not replace credential hygiene, collaborator review, or institutional data-approval processes.
+This project retains the original MIT license and copyright notice from [Agent Service Toolkit](https://github.com/JoshuaC215/agent-service-toolkit).
